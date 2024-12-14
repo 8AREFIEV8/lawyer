@@ -1,0 +1,246 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding:20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Общий контейнер */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  border-bottom: 1px solid rgba(211, 193, 193, 0.699);
+}
+
+a {
+  margin-right: 30px;
+  color: #0088ff;
+  font-weight:550;
+  font-size: 15px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section h1 {
+  width: 500px;
+  font-size: 2.5rem; /* Крупный заголовок */
+  color: #333; /* Темно-серый цвет для текста */
+  font-weight: 700; /* Жирный шрифт для акцента */
+  text-align: center; /* Выравнивание по центру */
+  margin-bottom: 30px; /* Отступ снизу */
+}
+
+.text p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #7a7777;
+}
+
+/* Секция услуг */
+.services-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.services-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  font-size: 1.2em;
+  margin: 15px 0;
+  color: #000;
+}
+
+.service-card button {
+  display: inline-block;
+  margin: 15px 0 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.service-card button:hover {
+  background-color: #555;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Секция руководства */
+.leadership-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.leadership-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.leadership-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.leadership-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.leadership-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+}
+
+.leadership-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #000;
+}
+
+.leadership-card p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.contact-section {
+  display: flex; /* Расположение контента в строку */
+  justify-content: space-between; /* Равномерное распределение пространства */
+  align-items: flex-start; /* Выровнять по верхнему краю */
+  gap: 40px; /* Расстояние между текстом и картой */
+  padding: 40px 20px; /* Отступы внутри секции */
+  max-width: 1200px; /* Максимальная ширина секции */
+  margin: 0 auto; /* Центрирование секции */
+  box-sizing: border-box;
+}
+
+.contact-section .info {
+  flex: 1; /* Текст занимает одну часть */
+  font-size: 1rem; /* Размер текста */
+  color: #333; /* Основной цвет текста */
+  line-height: 1.6; /* Увеличенная высота строки для читаемости */
+}
+
+.contact-section .info h2 {
+  font-size: 1.5rem; /* Размер заголовка */
+  font-weight: 700; /* Жирный текст */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+.contact-section .info p {
+  margin-bottom: 15px; /* Отступы между параграфами */
+}
+
+.contact-section .info a {
+  color: #007BFF; /* Синий цвет для ссылок */
+  text-decoration: none; /* Убираем подчеркивание */
+  transition: color 0.3s ease; /* Плавный переход при наведении */
+}
+
+.contact-section .info a:hover {
+  color: #0056b3; /* Темно-синий цвет при наведении */
+}
+
+.contact-section .map {
+  flex: 1; /* Карта занимает одну часть */
+  border: 1px solid #ddd; /* Граница карты */
+  border-radius: 10px; /* Скругленные углы */
+  overflow: hidden; /* Обрезка содержимого, если оно выходит за рамки */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для карты */
+}
+
+.contact-section .map iframe {
+  width: 100%; /* Карта занимает всю ширину блока */
+  height: 350px; /* Карта занимает всю высоту блока */
+  border: none; /* Убираем границы iframe */
+  border-radius: 10px; /* Скругление углов */
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .contact-section {
+      flex-direction: column; /* Переключаемся на колонку */
+      gap: 20px; /* Уменьшаем расстояние между элементами */
+  }
+
+  .contact-section .info, .contact-section .map {
+      flex: none; /* Убираем пропорциональное разделение */
+      width: 100%; /* Элементы занимают всю ширину */
+  }
+}
+
+footer p {
+  text-align: end;
+  
+  
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .services-cards, .leadership-cards {
+      flex-direction: column;
+      align-items: center;
+  }
+  .service-card, .leadership-card {
+    width: 100%;
+}
+}
