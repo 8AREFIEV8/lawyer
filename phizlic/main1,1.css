@@ -47,6 +47,34 @@ li {
   margin-left: 20px;
 }
 
+.title h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.info {
+  line-height: 1.5em;
+  font-size: 24px;
+  font-weight: 500;
+  color:rgb(136, 136, 136);
+}
+.contact {
+
+ display: flex;
+ flex-direction: column;
+
+ 
+  
+}
+
+.phone, .email, .addres, .post {
+  width: 400px;
+  text-align: center;
+  line-height: 1.5em;
+  
+
+}
+
 /* h5 {
   font-size: 18px; 
   line-height: 2em;
