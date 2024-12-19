@@ -8,7 +8,7 @@ body {
   /* font-family: "Inter" sans-serif; */
   width: 100%px;
   height: 500px;
-  background-image: url("/img/photo8.jpeg");
+  background-image: url("/img/photo10.jpeg");
   background-color:rgba(0,0,0,0.3);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -28,12 +28,12 @@ body {
     border-bottom: 1px solid rgba(211, 193, 193, 0.699);
   } */
   
-  a {
+  /* a {
     margin-right: 30px;
     color: #0088ff;
     font-weight:550;
     font-size: 15px;
-  }
+  } */
   
   
 
