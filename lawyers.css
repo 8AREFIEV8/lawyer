@@ -3,20 +3,49 @@
 .lawyers {
   font-family: "Inter";
 }
+body {
+  background-color: ghostwhite;
+}
 
 
-.leadership {
-  /*   */
+.leadership, .leadership2, .leadership3, .leadership4  {
+  margin-top: 20px;
+  gap: 20px;
   display: flex;
+  justify-content: center;
+  
   
 }
 
-.leadership-card {
+.leadership-card, .leadership-card2, .leadership-card3, .leadership-card4 {
+  
   width: 300px;
+  height: 160px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
   padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leadership-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.leadership-card2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.leadership-card3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.leadership-card4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
