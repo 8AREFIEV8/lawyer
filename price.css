@@ -2,4 +2,46 @@
 
 .container {
   font-family:"Inter";
+  
+}
+.info p {
+  padding: 0 120px 0 120px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+
+.info h3 {
+  padding-left: 120px;
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(136, 136, 136);
+
+}
+
+.price {
+  display: flex;
+  
+  
+  padding: 0 100px 0 120px ;
+}
+
+.price-num  {
+  width: 400px;
+  text-align: center;
+  /* padding-right: 40px; */
+}
+
+.price-num p {
+  font-size: 24px;
+  color: rgb(153, 153, 153);
+}
+
+.price-name {
+  width: 1200px;
+}
+
+.price-name p {
+  font-size: 24px;
+  font-weight: 600;
 }
