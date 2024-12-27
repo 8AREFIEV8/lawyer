@@ -19,17 +19,31 @@
 
 }
 
-.price {
+.price2, .price3, .price4 {
+  margin-top: 100px;
+}
+
+
+.price, .price2,  .price3, .price4 {
   display: flex;
-  
-  
   padding: 0 100px 0 120px ;
 }
 
-.price-num  {
+.price-num, .price-num2, .price-num3, .price-num4 {
   width: 400px;
   text-align: center;
   /* padding-right: 40px; */
+}
+.price-num2 {
+  margin-top: 105px;
+}
+
+.price-num3 {
+  margin-top: 150px;
+}
+
+.price-num4 {
+  margin-top: 140px;
 }
 
 .price-num p {
@@ -37,7 +51,22 @@
   color: rgb(153, 153, 153);
 }
 
-.price-name {
+.price-num2 p {
+  font-size: 24px;
+  color: rgb(153, 153, 153);
+}
+
+.price-num3 p {
+  font-size: 24px;
+  color: rgb(153, 153, 153);
+}
+
+.price-num4 p {
+  font-size: 24px;
+  color: rgb(153, 153, 153);
+}
+
+.price-name, .price-name2,  .price-name3, .price-name4 {
   width: 1200px;
 }
 
@@ -45,3 +74,42 @@
   font-size: 24px;
   font-weight: 600;
 }
+
+.price-name2 p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.price-name3 p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.price-name4 p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.price-name2 h3 {
+  /* padding-left: 10px; */
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(136, 136, 136);
+}
+
+.price-name3 h3 {
+  
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(136, 136, 136);
+}
+
+.price-name4 h3 {
+  
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(136, 136, 136);
+} 
+
+
+
