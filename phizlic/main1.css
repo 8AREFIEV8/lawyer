@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-
 .section-law {
   /* display: flex; */
   /* flex-wrap: wrap; */
   justify-content: space-between;
-   /* gap: 40px;      */
+  /* gap: 40px;      */
   margin: 40px auto;
   padding: 0 20px;
   width: 700px; /* Ограничение ширины секции */
-  
 }
-
-
 
 .law-card {
   height: 260px;
@@ -27,10 +22,7 @@
   text-align: center;
   margin-bottom: 60px;
 }
-/* 
-.law {
-  margin-left: 73px;
-} */
+
 
 .law-card img {
   border-radius: 12px;
@@ -39,16 +31,28 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
+
+
+.law2,
+.law3,
+.law4,
+.law5,
+.law6,
+.law7,
+.law8,
 .law1 {
-  margin: 30px 0 0 50px;
+  font-family: 'Inter', sans-serif;
+  margin: 30px;
+  font-size: 35px;
+  font-weight: 700;
 }
 
-.law2, .law3, .law4, .law5, .law7, .law9, .law10 {
-  margin: 30px;
+.law4 {
+  margin-top: 50px;
 }
 
 .law6 {
-  margin: 50px 20px 20px 70px;
+  margin: 50px 60px 20px 70px;
 }
 
 .law7 {
@@ -59,22 +63,43 @@
   margin: 30px 30px 20px 40px;
 }
 
-.law9 {
-  margin: 30px;
-  
+.law9,
+.law10,
+.law11,
+.law12,
+.law13,
+.law14,
+.law15,
+.law16 {
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+  font-size: 35px;
+
+  /* margin: 30px; */
 }
 
-.law10
+.law9 {
+  margin: 30px;
+}
 
+.law11 {
+  margin: 50px 80px 0 0;
+}
+.law12 {
+  margin: 30px;
+}
 
+.law13,
+.law15,
+.law16 {
+  margin-top: 30px;
+}
 
 .law-card h3 {
-  
-  
   font-family: 'Inter', sans-serif;
 
   letter-spacing: -1.5px;
-  font-size: 35px;
+  /* font-size: 45px; */
   font-weight: 600;
   margin: 20px 0;
   color: #0d1b2a; /* Темный синий цвет текста */
