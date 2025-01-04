@@ -189,7 +189,7 @@ li {
 
 @media (max-width:417px) {
    body {
-    overflow: hidden;
+    overflow-x: hidden; 
    }
   h2 {
     font-size: 30px;
