@@ -184,6 +184,16 @@ li {
   .title h3 {
     font-size: 25px;
   }
+
+  .img {
+    height: 300px;
+  }
+}
+
+@media (max-width:417px) {
+  h2 {
+    font-size: 30px;
+  }
 }
 
 
