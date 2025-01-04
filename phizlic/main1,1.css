@@ -2,6 +2,7 @@
 
 body {
   font-family: 'inter';
+  overflow-x: hidden;
 }
 .img {
   margin-top: 50px;
@@ -191,6 +192,9 @@ li {
 }
 
 @media (max-width:417px) {
+   body {
+    overflow: hidden;
+   }
   h2 {
     font-size: 30px;
     
