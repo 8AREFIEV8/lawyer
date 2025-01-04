@@ -193,6 +193,11 @@ li {
 @media (max-width:417px) {
   h2 {
     font-size: 30px;
+    
+  }
+
+  .img {
+    height: 250px;
   }
 }
 
