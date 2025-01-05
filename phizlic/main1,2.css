@@ -185,6 +185,10 @@ li {
   .img {
     height: 300px;
   }
+
+  .info {
+    font-size: 19px;
+  }
 }
 
 @media (max-width:417px) {
@@ -198,6 +202,10 @@ li {
 
   .img {
     height: 250px;
+  }
+
+  .info {
+    font-size: 16px;
   }
 }
 

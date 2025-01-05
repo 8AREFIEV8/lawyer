@@ -31,6 +31,7 @@ h2 {
 }
 
 article {
+  overflow-x: hidden;
   padding: 50px 200px 2px 200px;
 }
 p,
@@ -69,5 +70,126 @@ li {
   text-align: center;
   line-height: 1.5em;
 }
+
+@media (max-width: 1200px) {
+  article {
+    padding: 50px 100px 2px 100px;
+  }
+}
+
+@media (max-width: 955px) {
+  article {
+    padding: 80px 80px 2px 80px;
+  }
+
+  img h2 {
+    font-size: 40px;
+  }
+
+  article h5 {
+    line-height: 1.3;
+  }
+
+  article p {
+    line-height: 1.3;
+  }
+
+  .title h3 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 955px) {
+}
+
+@media (max-width: 800px) {
+  article {
+    padding: 50px 50px 2px 50px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  .title h3 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 715px) {
+  .img {
+    height: 400px;
+  }
+
+  .title h3 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 565px) {
+  .img {
+    height: 380px;
+  }
+}
+
+@media (max-width: 540px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  .img {
+    height: 350px;
+  }
+
+  article {
+    padding: 50px 40px 2px 40px;
+  }
+
+  .title h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 35px;
+  }
+
+  article {
+    padding: 50px 30px 2px 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .title h3 {
+    font-size: 25px;
+  }
+
+  .img {
+    height: 300px;
+  }
+
+  .info {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 417px) {
+  body {
+    overflow-x: hidden;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .img {
+    height: 250px;
+  }
+
+  .info {
+    font-size: 16px;
+  }
+}
+
 
 

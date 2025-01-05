@@ -49,3 +49,44 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
+
+@media(max-width:791px) {
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media(max-width:665px) {
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+@media(max-width:581px) {
+  h3 {
+    font-size: 13px;
+  }
+
+  p {
+    font-size: 11px;
+    
+  }
+
+  
+}
+
+@media(max-width:482px) {
+  h3 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
