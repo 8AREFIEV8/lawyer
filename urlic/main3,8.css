@@ -4,7 +4,7 @@ body {
   font-family: 'inter';
 }
 .img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
  width: 100%px;
   height: 500px;
   background-image: url('../img/photo20.jpeg');
@@ -149,6 +149,10 @@ li {
 
   .title h3 {
     font-size: 30px;
+  }
+
+  .info {
+    font-size: 21px;
   }
 }
 

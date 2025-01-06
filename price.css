@@ -178,5 +178,24 @@ display: flex;
 
 }
 
+@media (max-width:960px) {
+  .info p {
+    /* font-size: 20px; */
+  }
+
+  .container h3 {
+    /* font-size: 30px; */
+  }
+
+  .price-name p {
+    /* font-size: 20px; */
+  }
+
+  .price-num p {
+    /* font-size: 21px; */
+  }
+  
+}
+
 
 

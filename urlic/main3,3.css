@@ -4,7 +4,7 @@ body {
   font-family: 'inter';
 }
 .img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 100%px;
   height: 500px;
   background-image: url('../img/photo15.jpeg');
@@ -133,6 +133,13 @@ li {
   .img {
     height: 300px;
   }
+
+  .info {
+    font-size: 20px;
+  }
+  .title h3 {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -165,11 +172,11 @@ li {
 
 @media (max-width: 450px) {
   .title h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .img {
-    height: 250px;
+    height: 220px;
   }
 
   .info {

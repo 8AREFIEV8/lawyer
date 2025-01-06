@@ -4,7 +4,7 @@ body {
   font-family: 'inter';
 }
 .img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 100%px;
   height: 500px;
   background-image: url('../img/photo10.jpeg');
@@ -14,7 +14,6 @@ body {
   background-position: center;
   background-blend-mode: overlay;
 }
-
 
 div {
   display: flex;
@@ -70,18 +69,15 @@ li {
   line-height: 1.5em;
 }
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
   article {
-
     padding: 50px 100px 2px 100px;
   }
 }
 
-@media (max-width:955px) {
+@media (max-width: 955px) {
   article {
-
     padding: 80px 80px 2px 80px;
-    
   }
 
   img h2 {
@@ -101,19 +97,15 @@ li {
   }
 }
 
-@media (max-width:955px) {
-
-  
-
-
+@media (max-width: 955px) {
+  .title h3 {
+    font-size: 35px;
+  }
 }
 
-@media (max-width:800px) {
-
+@media (max-width: 800px) {
   article {
-
     padding: 50px 50px 2px 50px;
-    
   }
 
   h2 {
@@ -121,11 +113,11 @@ li {
   }
 
   .title h3 {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 
-@media (max-width:715px) {
+@media (max-width: 715px) {
   .img {
     height: 400px;
   }
@@ -135,13 +127,17 @@ li {
   }
 }
 
-@media (max-width:565px) {
+@media (max-width: 565px) {
   .img {
     height: 380px;
   }
+
+  .info {
+    font-size: 20px;
+  }
 }
 
-@media (max-width:540px) {
+@media (max-width: 540px) {
   h2 {
     font-size: 40px;
   }
@@ -151,9 +147,7 @@ li {
   }
 
   article {
-
     padding: 50px 40px 2px 40px;
-    
   }
 
   .title h3 {
@@ -161,20 +155,17 @@ li {
   }
 }
 
-@media (max-width:500px) {
-
+@media (max-width: 500px) {
   h2 {
     font-size: 35px;
   }
 
   article {
-
     padding: 50px 30px 2px 40px;
-    
   }
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
   .title h3 {
     font-size: 25px;
   }
@@ -184,17 +175,20 @@ li {
   }
 
   .info {
-    font-size: 22px;
+    font-size: 19px;
   }
 }
 
-@media (max-width:417px) {
-   body {
-    overflow-x: hidden; 
-   }
+@media (max-width: 417px) {
+  body {
+    overflow-x: hidden;
+  }
   h2 {
     font-size: 30px;
-    
+  }
+
+  .title h3 {
+    font-size: 20px;
   }
 
   .img {
@@ -205,6 +199,3 @@ li {
     font-size: 19px;
   }
 }
-
-
-

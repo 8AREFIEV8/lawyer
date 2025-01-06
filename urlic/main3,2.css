@@ -4,7 +4,7 @@ body {
   font-family: 'inter';
 }
 .img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 100%px;
   height: 500px;
   background-image: url('../img/photo14.jpeg');
@@ -109,7 +109,7 @@ li {
   }
 
   .title h3 {
-    font-size: 45px;
+    font-size: 39px;
   }
 }
 
@@ -123,7 +123,7 @@ li {
   }
 
   .title h3 {
-    font-size: 40px;
+    font-size: 38px;
   }
 }
 
@@ -144,15 +144,19 @@ li {
 }
 
 @media (max-width: 615px) {
-  /* h2 {
-    font-size: 35px;
-  } */
+
+
+  h2 {
+    font-size: 29px;
+  }
 }
 
 @media (max-width: 565px) {
   .img {
     height: 380px;
   }
+
+  
 }
 
 @media (max-width: 540px) {
@@ -171,14 +175,18 @@ li {
   }
 
   .title h3 {
-    font-size: 30px;
+    font-size: 27px;
+  }
+
+  .info {
+    font-size: 20px;
   }
 }
 
 @media (max-width: 500px) {
   /* h2 {
-    font-size: 35px;
-  } */
+    /* margin-left: 30px; */
+   */
 
   article {
     padding: 50px 30px 2px 30px;
@@ -193,7 +201,7 @@ li {
 
 @media (max-width: 450px) {
   .title h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .img {

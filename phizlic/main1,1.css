@@ -4,7 +4,7 @@ body {
   font-family: 'inter';
 }
 .img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 100%px;
   height: 500px;
   background-image: url('../img/photo8.jpeg');
@@ -172,7 +172,7 @@ li {
   }
 
   .info {
-    font-size: 29px;
+    font-size: 18px;
   }
 }
 

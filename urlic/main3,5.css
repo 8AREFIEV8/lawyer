@@ -4,7 +4,7 @@ body {
   font-family: 'inter';
 }
 .img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 100%px;
   height: 500px;
   background-image: url('../img/photo17.jpeg');
@@ -99,6 +99,9 @@ li {
 }
 
 @media (max-width: 955px) {
+  .img {
+    height: 450px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -111,13 +114,20 @@ li {
   }
 
   .title h3 {
-    font-size: 40px;
+    font-size: 32px;
+  }
+  .img {
+    height: 400px;
+  }
+
+  .info {
+    font-size: 22px;
   }
 }
 
 @media (max-width: 715px) {
   .img {
-    height: 400px;
+    height: 350px;
   }
 
   .title h3 {
@@ -125,9 +135,24 @@ li {
   }
 }
 
+@media (max-width: 626px) {
+
+  .img {
+    height: 300px;
+  }
+
+}
+
 @media (max-width: 565px) {
   .img {
     height: 380px;
+  }
+  .title h3 {
+    font-size: 27px;
+  }
+
+  .info {
+    font-size: 19px;
   }
 }
 
@@ -145,7 +170,7 @@ li {
   }
 
   .title h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 

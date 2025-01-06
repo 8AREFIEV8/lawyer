@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
 }
 .img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 100%px;
   height: 500px;
   background-image: url('../img/photo22.jpeg');
@@ -154,7 +154,7 @@ li {
   }
 
   .img {
-    height: 350px;
+    height: 320px;
   }
 
   article {
@@ -164,7 +164,11 @@ li {
   }
 
   .title h3 {
-    font-size: 30px;
+    font-size: 25px;
+  }
+
+  .info {
+    font-size: 20px;
   }
 }
 

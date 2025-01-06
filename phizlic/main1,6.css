@@ -4,7 +4,7 @@ body {
   font-family: 'inter';
 }
 .img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 100%px;
   height: 500px;
   background-image: url('../img/photo9.jpeg');
@@ -136,7 +136,7 @@ li {
   }
 
   .img {
-    height: 350px;
+    height: 320px;
   }
 
   article {
@@ -160,7 +160,7 @@ li {
 
 @media (max-width: 450px) {
   .title h3 {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .img {

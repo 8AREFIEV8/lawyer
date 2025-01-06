@@ -4,7 +4,7 @@ body {
   font-family: 'inter';
 }
 .img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   width: 100%px;
   height: 500px;
   background-image: url('../img/photo18.jpeg');
@@ -124,7 +124,7 @@ li {
   }
 
   .title h3 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -150,11 +150,15 @@ li {
   .title h3 {
     font-size: 30px;
   }
+
+  .info {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 500px) {
   h2 {
-    font-size: 27px;
+    font-size: 25px;
   }
 
   article {
@@ -164,7 +168,7 @@ li {
 
 @media (max-width: 450px) {
   .title h3 {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .img {
@@ -181,7 +185,7 @@ li {
     overflow-x: hidden;
   }
   h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .img {
