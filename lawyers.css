@@ -83,10 +83,10 @@ body {
 
 @media(max-width:482px) {
   h3 {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   p {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
