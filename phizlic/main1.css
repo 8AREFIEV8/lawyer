@@ -30,9 +30,25 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
+.imglaw4 {
+
+  width: 550px;
+}
+
+.img101 {
+  width: 550px;
+}
+
+.law101 {
+  font-family: 'Inter', sans-serif;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .law2,
 .law3,
-.law4,
+/* .law4, */
 .law5,
 .law6,
 .law7,
@@ -40,12 +56,16 @@
 .law1 {
   font-family: 'Inter', sans-serif;
   margin: 30px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
 }
 
 .law4 {
-  margin-top: 50px;
+  font-family: 'Inter', sans-serif;
+  /* margin: 10px; */
+  font-size: 30px;
+  font-weight: 700;
+  /* margin-top: 50px; */
 }
 
 .law6 {
@@ -70,7 +90,7 @@
 .law16 {
   font-family: 'Inter', sans-serif;
   line-height: 1;
-  font-size: 35px;
+  font-size: 30px;
 
   /* margin: 30px; */
 }
