@@ -17,7 +17,7 @@ body {
   
 }
 
-.leadership-card, .leadership-card2, .leadership-card3, .leadership-card4 {
+.leadership-card, .leadership-card2, .leadership-card3, .leadership-card4, .leadership-card5 {
   
   width: 300px;
   height: 160px;
@@ -46,6 +46,11 @@ body {
 }
 
 .leadership-card4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.leadership-card5:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
